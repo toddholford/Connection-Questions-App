@@ -1,0 +1,95 @@
+﻿.main-background {
+    background: rgb(43,44,48);
+    /*background: linear-gradient(90deg, rgba(53,54,58,1) 0%, rgba(32,33,36,1) 100%);*/
+}
+
+.background-color-theme-1 {
+    background: #ec1c49;
+    /*background: linear-gradient(90deg, rgba(255,0,86,1) 0%, rgba(255,222,0,1) 100%);*/
+}
+
+.font-color-theme-1 {
+    color: #ec1c49;
+    /*background: -webkit-linear-gradient(45deg, rgb(255,0,86), rgb(255,222,0));*/
+    /*-webkit-background-clip: text;*/
+    /*-webkit-text-fill-color: transparent;*/
+}
+
+.text-style-header {
+    font-size: 12rem;
+    text-align: center;
+}
+.text-style-subheader {
+    font-size: 2rem;
+    text-align: center;
+}
+
+/*.text-style-info {}*/
+
+.center-content-screen-middle {
+    margin-top: 20%;
+    margin-bottom: auto;
+}
+
+.center-content-screen-top {
+    margin-top: 2%;
+    margin-bottom: auto;
+}
+
+.button-resize {
+    padding-top: 1rem;
+    width: 20rem;
+    height: auto;
+}
+
+.link-image-center {
+    text-align: center;
+}
+
+a {
+    color: black;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+a:hover {
+    color: black;
+}
+
+button-pass-turn {
+    width: 2rem !important;
+}
+
+.button-question-field {
+    margin-bottom: 1rem;
+}
+
+.user-1-color-dot-icon {
+    border-radius: 50% !important;
+    padding: 0.75rem!important;
+    position: absolute!important;
+    color: #fff;
+    background-color: #eca71c;
+    margin-left: -1rem;
+    margin-top: 3rem;
+}
+
+.user-2-color-dot-icon {
+    border-radius: 50% !important;
+    padding: 0.75rem!important;
+    position: absolute!important;
+    color: #fff;
+    background-color: #1ccdec;
+    margin-top: 3rem;
+}
+
+.text-main {
+    --bs-text-opacity: 1;
+    color: #ec1c49;
+}
+
+.custom-border {
+    background-clip: border-box;
+    border: 1px solid #ec1c49 !important;
+    border-radius: 0.25rem;
+}
