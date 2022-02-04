@@ -1,7 +1,7 @@
 ﻿import React from 'react';
 import { MDBCard, MDBCardHeader, MDBCardBody } from 'mdb-react-ui-kit';
 import QuestionnairePrompt from "./QuestionnairePrompt.component";
-import QuestionnaireButton from "./QuestionnaireButton.component";
+import StyledButton from "./StyledButton.component";
 
 function Questionnaire() {
     return (
@@ -13,13 +13,13 @@ function Questionnaire() {
                         <QuestionnairePrompt />
                         <div className="col">
                             <div className="row">
-                                <QuestionnaireButton buttonText={"Send Question"}/>
+                                <StyledButton csc={"button-question-field"} buttonText={"Send Question"}/>
                             </div>
                             <div className="row">
-                                <QuestionnaireButton buttonText={"Get a new Question"}/>
+                                <StyledButton csc={"button-question-field"} buttonText={"Get a new Question"}/>
                             </div>
                             <div className="row">
-                                <QuestionnaireButton buttonText={"Type your own Question"}/>
+                                <StyledButton csc={"button-question-field"} buttonText={"Type your own Question"}/>
                             </div>
                         </div>
                     </div>

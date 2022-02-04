@@ -6,9 +6,10 @@ import {
 } from "react-router-dom";
 import { MDBContainer } from 'mdb-react-ui-kit';
 
+import ConnectRoom from "./components/ConnectRoom.component";
 // import CreateRoom from "./components/CreateRoom.component";
 // import JoinRoom from "./components/JoinRoom.component";
-import ConnectRoom from "./components/ConnectRoom.component";
+import LobbyRoom from "./components/LobbyRoom.component";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Routes>
               {/*<Route path="/create" element={<CreateRoom />} />*/}
               {/*<Route path="/join" element={<JoinRoom />} />*/}
+              <Route path="/lobby:id" element={<LobbyRoom />} />
               <Route path="/" element={<ConnectRoom />} />
             </Routes>
           </div>
