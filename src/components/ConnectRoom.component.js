@@ -1,7 +1,8 @@
 ﻿import React from 'react';
+import {Link} from "react-router-dom";
 import StyledButton from "./StyledButton.component";
 
-function LobbyRoom() {
+function ConnectRoom() {
     return (
         <div>
             <div className="center-content-screen-middle">
@@ -12,12 +13,16 @@ function LobbyRoom() {
                 </div>
                 <div className="row align-items-center justify-content-center">
                     <div className="col text-center">
-                        <StyledButton csc={"button-lobby-room"} buttonText={"Create Room"}/>
+                        <Link to="/create">
+                            <StyledButton csc={"button-connect-room"} buttonText={"Create Room"} />
+                        </Link>
                     </div>
                 </div>
                 <div className="row align-items-center justify-content-center">
                     <div className="col text-center">
-                        <StyledButton csc={"button-lobby-room"} buttonText={"Join Room"} />
+                        <Link to="/join">
+                            <StyledButton csc={"button-connect-room"} buttonText={"Join Room"} />
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -25,4 +30,6 @@ function LobbyRoom() {
     );
 }
 
-export default LobbyRoom;
+//add sign in function here
+
+export default ConnectRoom;

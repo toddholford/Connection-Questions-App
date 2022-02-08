@@ -7,7 +7,7 @@ function RoomUser(props) {
         <MDBCard className="custom-border text-white bg-dark mb-3">
             <MDBCardBody>
                 {props.username}
-                <UserColorIndicator />
+                <UserColorIndicator csc={props.csc}/>
             </MDBCardBody>
         </MDBCard>
     );

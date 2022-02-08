@@ -16,11 +16,11 @@ function LobbyRoom() {
             <div>
                 <div className="row">
                     <div className="col">
-                        <RoomUser username={"User 1"}/>
+                        <RoomUser username={"User 1"} csc={"position-absolute p-2 rounded-circle"}/>
                     </div>
                     <div className="col-2"></div>
                     <div className="col">
-                        <RoomUser username={"User 2"}/>
+                        <RoomUser username={"User 2"} csc={"position-absolute p-2 rounded-circle"}/>
                     </div>
                 </div>
             </div>

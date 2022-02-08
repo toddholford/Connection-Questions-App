@@ -5,6 +5,48 @@
       <e p="node_modules\@babel\parser" t="IncludeRecursive" />
       <e p="node_modules\@babel\types" t="IncludeRecursive" />
       <e p="node_modules\@bcoe\v8-coverage" t="IncludeRecursive" />
+      <e p="node_modules\@firebase\analytics" t="IncludeRecursive" />
+      <e p="node_modules\@firebase\analytics-compat" t="IncludeRecursive" />
+      <e p="node_modules\@firebase\analytics-types" t="IncludeRecursive" />
+      <e p="node_modules\@firebase\app" t="IncludeRecursive" />
+      <e p="node_modules\@firebase\app-check" t="IncludeRecursive" />
+      <e p="node_modules\@firebase\app-check-compat" t="IncludeRecursive" />
+      <e p="node_modules\@firebase\app-check-interop-types" t="IncludeRecursive" />
+      <e p="node_modules\@firebase\app-compat" t="IncludeRecursive" />
+      <e p="node_modules\@firebase\app-types" t="IncludeRecursive" />
+      <e p="node_modules\@firebase\auth" t="IncludeRecursive" />
+      <e p="node_modules\@firebase\auth-compat" t="IncludeRecursive" />
+      <e p="node_modules\@firebase\auth-interop-types" t="IncludeRecursive" />
+      <e p="node_modules\@firebase\auth-types" t="IncludeRecursive" />
+      <e p="node_modules\@firebase\component" t="IncludeRecursive" />
+      <e p="node_modules\@firebase\database" t="IncludeRecursive" />
+      <e p="node_modules\@firebase\database-compat" t="IncludeRecursive" />
+      <e p="node_modules\@firebase\database-types" t="IncludeRecursive" />
+      <e p="node_modules\@firebase\firestore" t="IncludeRecursive" />
+      <e p="node_modules\@firebase\firestore-compat" t="IncludeRecursive" />
+      <e p="node_modules\@firebase\firestore-types" t="IncludeRecursive" />
+      <e p="node_modules\@firebase\functions" t="IncludeRecursive" />
+      <e p="node_modules\@firebase\functions-compat" t="IncludeRecursive" />
+      <e p="node_modules\@firebase\functions-types" t="IncludeRecursive" />
+      <e p="node_modules\@firebase\installations" t="IncludeRecursive" />
+      <e p="node_modules\@firebase\logger" t="IncludeRecursive" />
+      <e p="node_modules\@firebase\messaging" t="IncludeRecursive" />
+      <e p="node_modules\@firebase\messaging-compat" t="IncludeRecursive" />
+      <e p="node_modules\@firebase\messaging-interop-types" t="IncludeRecursive" />
+      <e p="node_modules\@firebase\performance" t="IncludeRecursive" />
+      <e p="node_modules\@firebase\performance-compat" t="IncludeRecursive" />
+      <e p="node_modules\@firebase\performance-types" t="IncludeRecursive" />
+      <e p="node_modules\@firebase\polyfill" t="IncludeRecursive" />
+      <e p="node_modules\@firebase\remote-config" t="IncludeRecursive" />
+      <e p="node_modules\@firebase\remote-config-compat" t="IncludeRecursive" />
+      <e p="node_modules\@firebase\remote-config-types" t="IncludeRecursive" />
+      <e p="node_modules\@firebase\storage" t="IncludeRecursive" />
+      <e p="node_modules\@firebase\storage-compat" t="IncludeRecursive" />
+      <e p="node_modules\@firebase\storage-types" t="IncludeRecursive" />
+      <e p="node_modules\@firebase\util" t="IncludeRecursive" />
+      <e p="node_modules\@firebase\webchannel-wrapper" t="IncludeRecursive" />
+      <e p="node_modules\@grpc\grpc-js" t="IncludeRecursive" />
+      <e p="node_modules\@grpc\proto-loader" t="IncludeRecursive" />
       <e p="node_modules\@jest\console" t="IncludeRecursive" />
       <e p="node_modules\@jest\core" t="IncludeRecursive" />
       <e p="node_modules\@jest\environment" t="IncludeRecursive" />
@@ -17,6 +59,16 @@
       <e p="node_modules\@jest\transform" t="IncludeRecursive" />
       <e p="node_modules\@jest\types" t="IncludeRecursive" />
       <e p="node_modules\@pmmmwh\react-refresh-webpack-plugin" t="IncludeRecursive" />
+      <e p="node_modules\@protobufjs\aspromise" t="IncludeRecursive" />
+      <e p="node_modules\@protobufjs\base64" t="IncludeRecursive" />
+      <e p="node_modules\@protobufjs\codegen" t="IncludeRecursive" />
+      <e p="node_modules\@protobufjs\eventemitter" t="IncludeRecursive" />
+      <e p="node_modules\@protobufjs\fetch" t="IncludeRecursive" />
+      <e p="node_modules\@protobufjs\float" t="IncludeRecursive" />
+      <e p="node_modules\@protobufjs\inquire" t="IncludeRecursive" />
+      <e p="node_modules\@protobufjs\path" t="IncludeRecursive" />
+      <e p="node_modules\@protobufjs\pool" t="IncludeRecursive" />
+      <e p="node_modules\@protobufjs\utf8" t="IncludeRecursive" />
       <e p="node_modules\@rollup\plugin-babel" t="IncludeRecursive" />
       <e p="node_modules\@rollup\plugin-node-resolve" t="IncludeRecursive" />
       <e p="node_modules\@rollup\plugin-replace" t="IncludeRecursive" />
@@ -103,7 +155,9 @@
       <e p="node_modules\expect" t="IncludeRecursive" />
       <e p="node_modules\fast-deep-equal" t="IncludeRecursive" />
       <e p="node_modules\fast-json-stable-stringify" t="IncludeRecursive" />
+      <e p="node_modules\filesize" t="IncludeRecursive" />
       <e p="node_modules\find-up" t="IncludeRecursive" />
+      <e p="node_modules\firebase" t="IncludeRecursive" />
       <e p="node_modules\fork-ts-checker-webpack-plugin" t="IncludeRecursive" />
       <e p="node_modules\get-stream" t="IncludeRecursive" />
       <e p="node_modules\globby" t="IncludeRecursive" />
@@ -111,6 +165,7 @@
       <e p="node_modules\html-entities" t="IncludeRecursive" />
       <e p="node_modules\http-proxy-middleware" t="IncludeRecursive" />
       <e p="node_modules\human-signals" t="IncludeRecursive" />
+      <e p="node_modules\idb" t="IncludeRecursive" />
       <e p="node_modules\ignore" t="IncludeRecursive" />
       <e p="node_modules\import-fresh" t="IncludeRecursive" />
       <e p="node_modules\indent-string" t="IncludeRecursive" />
@@ -181,9 +236,11 @@
       <e p="node_modules\pretty-bytes" t="IncludeRecursive" />
       <e p="node_modules\pretty-format" t="IncludeRecursive" />
       <e p="node_modules\promise" t="IncludeRecursive" />
+      <e p="node_modules\protobufjs" t="IncludeRecursive" />
       <e p="node_modules\react" t="IncludeRecursive" />
       <e p="node_modules\react-dom" t="IncludeRecursive" />
       <e p="node_modules\react-fast-compare" t="IncludeRecursive" />
+      <e p="node_modules\react-firebase-hooks" t="IncludeRecursive" />
       <e p="node_modules\react-popper" t="IncludeRecursive" />
       <e p="node_modules\react-router" t="IncludeRecursive" />
       <e p="node_modules\react-router-dom" t="IncludeRecursive" />
@@ -223,6 +280,6 @@
       <e p="node_modules\yocto-queue" t="IncludeRecursive" />
     </e>
     <e p="C:\Users\toddh\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\toddh\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_.19.01" t="ExcludeRecursive" />
+    <e p="C:\Users\toddh\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_.19.00" t="ExcludeRecursive" />
   </component>
 </project>

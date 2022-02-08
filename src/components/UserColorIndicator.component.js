@@ -1,8 +1,8 @@
 ﻿import React from 'react';
 
-function UserColorIndicator() {
+function UserColorIndicator(props) {
     return (
-        <span className="position-absolute p-2 bg-success rounded-circle">
+        <span className={props.csc}>
             <span className="visually-hidden"></span>
         </span>
     );

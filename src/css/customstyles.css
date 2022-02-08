@@ -60,11 +60,16 @@ a:hover {
     width: 2rem !important;
 }
 
-.button-lobby-room {
+.button-connect-room {
     margin-bottom: 1rem;
     width: 12rem !important;
     height: 5rem !important;
-    /*font-size: 5rem;*/
+    font-size: 1rem !important;
+}
+
+.button-join-room {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .button-question-field {
@@ -90,6 +95,10 @@ a:hover {
     margin-top: 3rem;
 }
 
+.user-color-dot-icon {
+    
+}
+
 .text-main {
     --bs-text-opacity: 1;
     color: #ec1c49;
@@ -99,4 +108,11 @@ a:hover {
     background-clip: border-box;
     border: 1px solid #ec1c49 !important;
     border-radius: 0.25rem;
+}
+
+.input-room-code {
+    margin-top: 1rem;
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+    border-color: #ec1c49 !important;
 }

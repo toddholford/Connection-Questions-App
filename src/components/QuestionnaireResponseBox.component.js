@@ -9,12 +9,8 @@ function QuestionnaireResponseBox() {
                 What did you usually get in trouble for as a kid?
             </MDBCardHeader>
             <MDBCardBody>
-                <div className="row justify-content-start">
-                    <QuestionnaireResponse />
-                </div>
-                <div className="row justify-content-end">
-                    <QuestionnaireResponse />
-                </div>
+                    <QuestionnaireResponse className={"row justify-content-start"} csc={"user-1-color-dot-icon position-absolute p-2 rounded-circle"} />
+                    <QuestionnaireResponse className={"row justify-content-end"} csc={"user-2-color-dot-icon position-absolute p-2 rounded-circle"}/>
             </MDBCardBody>
         </MDBCard>
     );
