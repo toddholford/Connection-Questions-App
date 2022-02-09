@@ -10,23 +10,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10c3a6ca-db5d-4f39-a3d9-e13bf5ab814f" name="Default Changelist" comment="-changed naming of 'ConnectRoom' to 'LobbyRoom'&#10;-created new 'ConnectRoom' component&#10;-changed naming of 'QuestionnaireButton' component to 'StyledButton' make it more reusable&#10;-update route paths">
-      <change afterPath="$PROJECT_DIR$/src/components/CreateRoom.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/JoinRoom.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Connection-Questions-App.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Connection-Questions-App.dir/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="10c3a6ca-db5d-4f39-a3d9-e13bf5ab814f" name="Default Changelist" comment="-started adding in firebase">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Connection-Questions-App.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Connection-Questions-App.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ConnectRoom.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ConnectRoom.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LobbyRoom.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LobbyRoom.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Questionnaire.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Questionnaire.component.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/QuestionnaireResponse.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/QuestionnaireResponse.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/QuestionnaireResponseBox.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/QuestionnaireResponseBox.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RoomUser.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RoomUser.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UserColorIndicator.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserColorIndicator.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/StyledButton.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StyledButton.component.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/custom-bootstrap-overrides.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/custom-bootstrap-overrides.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/customstyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/customstyles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,10 +26,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/components/JoinRoom.component.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -57,8 +51,6 @@
         <option value="$PROJECT_DIR$/src/components/JoinRoom.component.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/components/StyledButton.component.js" />
-        <option value="$PROJECT_DIR$/src/css/custom-bootstrap-overrides.css" />
         <option value="$PROJECT_DIR$/src/components/JoinRoom.component.js" />
         <option value="$PROJECT_DIR$/src/components/CreateRoom.component.js" />
         <option value="$PROJECT_DIR$/src/css/customstyles.css" />
@@ -66,9 +58,17 @@
         <option value="$PROJECT_DIR$/src/components/RoomUser.component.js" />
         <option value="$PROJECT_DIR$/src/components/LobbyRoom.component.js" />
         <option value="$PROJECT_DIR$/src/components/QuestionnaireResponseBox.component.js" />
-        <option value="$PROJECT_DIR$/src/components/QuestionnaireResponse.component.js" />
         <option value="$PROJECT_DIR$/src/components/ConnectRoom.component.js" />
+        <option value="$PROJECT_DIR$/src/components/StyledButton.component.js" />
+        <option value="$PROJECT_DIR$/src/js/LobbyCodeGenerator.js" />
+        <option value="$PROJECT_DIR$/src/components/TestRoom1.component.js" />
+        <option value="$PROJECT_DIR$/src/components/AppTestRoom.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/css/custom-bootstrap-overrides.css" />
+        <option value="$PROJECT_DIR$/src/components/Questionnaire.component.js" />
+        <option value="$PROJECT_DIR$/src/components/QuestionnaireResponse.component.js" />
+        <option value="$PROJECT_DIR$/src/components/QuestionReplyModal.component.js" />
+        <option value="$PROJECT_DIR$/src/components/CustomQuestionModal.component.js" />
       </list>
     </option>
   </component>
@@ -100,7 +100,7 @@
       <workItem from="1643688155820" duration="3402000" />
       <workItem from="1643840245749" duration="3110000" />
       <workItem from="1643866720012" duration="15730000" />
-      <workItem from="1644020659285" duration="24424000" />
+      <workItem from="1644020659285" duration="46025000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1643409076460</created>
@@ -123,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643955152204</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="-started adding in firebase">
+      <created>1644304059132</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1644304059132</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,13 +155,18 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="-switched plain html,css,js to reactjs" />
     <MESSAGE value="-changed naming of 'ConnectRoom' to 'LobbyRoom'&#10;-created new 'ConnectRoom' component&#10;-changed naming of 'QuestionnaireButton' component to 'StyledButton' make it more reusable&#10;-update route paths" />
-    <option name="LAST_COMMIT_MESSAGE" value="-changed naming of 'ConnectRoom' to 'LobbyRoom'&#10;-created new 'ConnectRoom' component&#10;-changed naming of 'QuestionnaireButton' component to 'StyledButton' make it more reusable&#10;-update route paths" />
+    <MESSAGE value="-started adding in firebase" />
+    <option name="LAST_COMMIT_MESSAGE" value="-started adding in firebase" />
   </component>
   <component name="WindowStateProjectService">
     <state x="461" y="165" key="SettingsEditor" timestamp="1643409261553">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1643409261553" />
+    <state x="675" y="233" key="git4idea.branch.GitSmartOperationDialog" timestamp="1644304365783">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="675" y="233" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1644304365783" />
     <state x="720" y="309" key="git4idea.ui.GitUnstashDialog" timestamp="1644000830010">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

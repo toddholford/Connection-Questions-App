@@ -110,3 +110,15 @@
     outline: 0;
     /*box-shadow: 0 0 0 0.25rem rgb(18 102 241 / 25%);*/
 }
+
+.modal-title {
+    color: #ffffff !important;
+}
+
+.modal-header {
+    border-bottom: 1px solid #ec1c49 !important;
+}
+
+.modal-footer {
+    border-top: 1px solid #ec1c49 !important;
+}
