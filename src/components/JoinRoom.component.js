@@ -16,14 +16,14 @@ function JoinRoom() {
                     <div className="row align-items-center justify-content-center">
                         <div className="col-2"></div>
                         <div className="col">
-                            <MDBInput className="input-room-code" label='Username' id='form1' type='text' />
+                            <MDBInput className="input-room-code" label='Room Code' id='form2' type='text' />
                         </div>
                         <div className="col-2"></div>
                     </div>
                     <div className="row align-items-center justify-content-center">
                         <div className="col-2"></div>
                         <div className="col">
-                            <MDBInput className="input-room-code" label='Room Code' id='form2' type='text' />
+                            <MDBInput className="input-room-code" label='Username' id='form1' type='text' />
                         </div>
                         <div className="col-2"></div>
                     </div>

@@ -19,7 +19,7 @@ function QuestionnaireResponse(props) {
                 <MDBCard className="custom-border text-white bg-dark mb-3">
                     <MDBCardBody className={"text-center"}>
                         {/*<MDBCardText className="col text-center">This is a response to the question.</MDBCardText>*/}
-                        <StyledButton onClick={toggleShow} buttonText="Add Your Response" />
+                        <StyledButton onClick={toggleShow} buttonText="Add Your Answer" />
                     </MDBCardBody>
                 </MDBCard>
             </div>
