@@ -6,19 +6,41 @@ import {
 } from "react-router-dom";
 import { MDBContainer } from 'mdb-react-ui-kit';
 import firebase from "firebase/compat/app";
+import {doc, collection, addDoc, getFirestore, documentId} from "firebase/firestore";
+import { initializeApp } from "firebase/app"
+import { GenerateLobbyCode } from "./js/LobbyCodeGenerator"
 
-function AppTestRoom() {
+async function AppTestRoom() {
 
-    const firebaseApp = firebase.app;
-    // const fireStore = firebaseApp.firestore()
+    // const writeNewLobby = async (e) => {
+    //
+    //     const docRef = addDoc(collection(db, "Lobbies"), {
+    //         lobbyCode: GenerateLobbyCode(),
+    //         lobbyCreator: "Bobby J",
+    //         lobbyJoiner: ""
+    //     });
+    //     collection(db, {docRef} + "/LobbyQuestions");
+    // }
+
+    // doc.ref.collection('LobbyQuestions')
+
+
+    // QUERY TO DELETE LOBBIES
+    // const lobbies_query = db.collection('Lobbies').where('lobbyCode','!=',1234);
+    // lobbies_query.get().then(function(querySnapshot) {
+    //     querySnapshot.forEach(function(doc) {
+    //         doc.ref.delete().then(r => {});
+    //     });
+    // });
+    
     return (
         <div>
             <h1>React & Firebase</h1>
             <h2>By @farazamiruddin</h2>
-            <p></p>
+            {/*<button onClick={await lobbies_query} type={"button"}></button>*/}
         </div>
     );
-    
+
     // const [user] = useAuthState(auth);
     // return (
     //     <MDBContainer>
@@ -34,6 +56,34 @@ function AppTestRoom() {
     //     </MDBContainer>
     // );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //sign in will be apart of connectroom or createroom
 // function SignIn() {

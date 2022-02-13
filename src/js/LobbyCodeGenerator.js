@@ -3,12 +3,16 @@
 // const lobbiesRef = collection(db, "Lobbies");
 //
 let lobbyCode = 0;
+let codeNum1 = 0;
+let codeNum2 = 0;
+let codeNum3 = 0;
+let codeNum4 = 0;
 
-function GenerateLobbyCode() {
-    const codeNum1 = Math.floor(Math.random() * 10);
-    const codeNum2 = Math.floor(Math.random() * 10);
-    const codeNum3 = Math.floor(Math.random() * 10);
-    const codeNum4 = Math.floor(Math.random() * 10);
+export function GenerateLobbyCode() {
+    codeNum1 = Math.floor(Math.random() * 10);
+    codeNum2 = Math.floor(Math.random() * 10);
+    codeNum3 = Math.floor(Math.random() * 10);
+    codeNum4 = Math.floor(Math.random() * 10);
     const lobbyCodeConcat = codeNum1.toString() + codeNum2.toString() + codeNum3.toString() + codeNum4.toString();
     lobbyCode = parseInt(lobbyCodeConcat);
     
@@ -25,6 +29,7 @@ function GenerateLobbyCode() {
 //    
 // }
 //
-GenerateLobbyCode();
+// GenerateLobbyCode();
 // CheckLobbyCodeIsAvailable();
 
+export default GenerateLobbyCode();
