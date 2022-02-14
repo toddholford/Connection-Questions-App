@@ -1,8 +1,6 @@
 ﻿import React, {useState} from "react";
 
 import firebase from "./config/firebase";
-import 'firebase/compat/firestore'
-import 'firebase/compat/auth'
 
 import { useAuthState } from "react-firebase-hooks/auth";
 import { useCollectionData } from "react-firebase-hooks/firestore";
@@ -41,8 +39,8 @@ function PracticeLobbyRoom() {
     // used to scrolled down
     // const dummy = useRef();
 
-    const messagesRef = firestore.collection('Lobbies')
-    const query = messagesRef.orderBy('createdAt').limit(25);
+    const lobbiesRef = firestore.collection('Lobbies')
+    const query = lobbiesRef.orderBy('createdAt').limit(25);
     
     const [messages] = useCollectionData(query, {idField: 'id'});
     
@@ -55,9 +53,9 @@ function PracticeLobbyRoom() {
         // Needed for User Auth
         // const { uid } = auth.currentUser;
 
-        await messagesRef.add({
+        await lobbiesRef.add({
            text: formValue,
-            createdAt: firebase.firestore.FieldValue.serverTimestamp()
+           createdAt: firebase.firestore.FieldValue.serverTimestamp()
         });
         
         setFormValue('');

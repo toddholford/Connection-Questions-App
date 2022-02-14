@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10c3a6ca-db5d-4f39-a3d9-e13bf5ab814f" name="Default Changelist" comment="-restructured where firebaseConfig lives">
+    <list default="true" id="10c3a6ca-db5d-4f39-a3d9-e13bf5ab814f" name="Default Changelist" comment="-added working messaging through a submit form&#10;-data is showing in cloud firestore when form is submitted&#10;-added config folder with firebaseConfig.js file to store app initialization">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Connection-Questions-App.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Connection-Questions-App.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AppTestRoom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppTestRoom.js" afterDir="false" />
     </list>
@@ -105,7 +105,7 @@
       <workItem from="1643840245749" duration="3110000" />
       <workItem from="1643866720012" duration="15730000" />
       <workItem from="1644020659285" duration="46860000" />
-      <workItem from="1644423116861" duration="38268000" />
+      <workItem from="1644423116861" duration="39403000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1643409076460</created>
@@ -156,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644721764106</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="-added working messaging through a submit form&#10;-data is showing in cloud firestore when form is submitted&#10;-added config folder with firebaseConfig.js file to store app initialization">
+      <created>1644799746848</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1644799746848</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,7 +192,8 @@
     <MESSAGE value="-added CustomQuestionModal component&#10;-added QuestionReplyModal component" />
     <MESSAGE value="-added test components" />
     <MESSAGE value="-restructured where firebaseConfig lives" />
-    <option name="LAST_COMMIT_MESSAGE" value="-restructured where firebaseConfig lives" />
+    <MESSAGE value="-added working messaging through a submit form&#10;-data is showing in cloud firestore when form is submitted&#10;-added config folder with firebaseConfig.js file to store app initialization" />
+    <option name="LAST_COMMIT_MESSAGE" value="-added working messaging through a submit form&#10;-data is showing in cloud firestore when form is submitted&#10;-added config folder with firebaseConfig.js file to store app initialization" />
   </component>
   <component name="WindowStateProjectService">
     <state x="461" y="165" key="SettingsEditor" timestamp="1643409261553">
