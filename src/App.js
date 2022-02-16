@@ -12,18 +12,19 @@ import JoinRoom from "./components/JoinRoom.component";
 import LobbyRoom from "./components/LobbyRoom.component";
 
 function App(){
-  return (
+
+    return (
       <MDBContainer>
         <Router>
             <Routes>
+                <Route path="/" element={<ConnectRoom />} />
                 <Route path="/create" element={<CreateRoom />} />
                 <Route path="/join" element={<JoinRoom />} />
-                <Route path="/lobby:id" element={<LobbyRoom />} />
-                <Route path="/" element={<ConnectRoom />} />
+                <Route path="/lobby" element={<LobbyRoom />} />
             </Routes>
         </Router>
       </MDBContainer>
-  )
+    )
 }
 
 export default App;

@@ -3,7 +3,8 @@ import {MDBCard, MDBCardTitle, MDBInput} from 'mdb-react-ui-kit';
 import {Link} from "react-router-dom";
 import StyledButton from "./StyledButton.component";
 
-function JoinRoom(props) {
+function CreateRoom() {
+    
     return (
         <div>
             <div className="center-content-screen-middle">
@@ -16,7 +17,6 @@ function JoinRoom(props) {
                     <div className="row align-items-center justify-content-center">
                         <div className="col-2"></div>
                         <div className="col text-center">
-                            {/*<MDBCardTitle>{props.newRoomCode}</MDBCardTitle>*/}
                             <p>RoomCode: </p>
                             <MDBCardTitle>1234</MDBCardTitle>
                         </div>
@@ -31,7 +31,7 @@ function JoinRoom(props) {
                     </div>
                     <div className="row align-items-center justify-content-center">
                         <div className="col text-center">
-                            <Link to="/lobby:id">
+                            <Link to={"/lobby"}>
                                 <StyledButton csc={"button-join-room"} buttonText={"Create"} />
                             </Link>
                         </div>
@@ -42,4 +42,4 @@ function JoinRoom(props) {
     );
 }
 
-export default JoinRoom;
+export default CreateRoom;

@@ -1,7 +1,6 @@
 ﻿import React from 'react';
 import RoomUser from "./RoomUser.component";
 import Questionnaire from "./Questionnaire.component";
-import QuestionnaireResponseBox from "./QuestionnaireResponseBox.component";
 
 function LobbyRoom() {
     return (
@@ -25,7 +24,6 @@ function LobbyRoom() {
                 </div>
             </div>
             <Questionnaire />
-            <QuestionnaireResponseBox />
         </div>
     );
 }

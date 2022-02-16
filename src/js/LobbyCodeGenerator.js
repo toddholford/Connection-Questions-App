@@ -16,7 +16,7 @@ export function GenerateLobbyCode() {
     const lobbyCodeConcat = codeNum1.toString() + codeNum2.toString() + codeNum3.toString() + codeNum4.toString();
     lobbyCode = parseInt(lobbyCodeConcat);
     
-    return(lobbyCode);
+    return(lobbyCodeConcat);
 }
 
 // function CheckLobbyCodeIsAvailable(LobbyCode) {
