@@ -18,14 +18,12 @@ function Questionnaire() {
     const [centredModal, setCentredModal] = useState(false);
 
     const toggleShow = () => setCentredModal(!centredModal);
-    
+
     const lobbyQuestionsRef = firestore.collection('Lobbies').doc().collection('LobbyQuestions')
 
     const query = lobbyQuestionsRef.orderBy('createdAt').limit(100);
 
     const [questions] = useCollectionData(query, {idField: 'id'});
-    
-    // const questionsMap = questions.map(question => <QuestionnaireResponseBox key={question.id} askedQuestion={question}/>);
     
     return (
         <>
@@ -51,7 +49,7 @@ function Questionnaire() {
                 </MDBCardBody>
             </MDBCard>
 
-            <div id="QuestionnaireList">
+            <div>
                 {questions && questions.map(qtn => <QuestionnaireResponseBox key={qtn.id} askedQuestion={qtn}/>)}
             </div>
             
@@ -76,6 +74,5 @@ function QuestionnaireResponseBox(props) {
         </MDBCard>
     );
 }
-
 
 export default Questionnaire;

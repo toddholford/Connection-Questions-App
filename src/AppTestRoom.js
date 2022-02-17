@@ -1,12 +1,12 @@
-﻿import React, {useState} from "react";
+﻿// import React from "react";
 
 import firebase from "./config/firebase";
 
-import { useCollectionData } from "react-firebase-hooks/firestore";
-import QuestionnaireResponseBox from "./components/QuestionnaireResponseBox.component";
-import {GenerateLobbyCode} from "./js/LobbyCodeGenerator";
-import RoomUser from "./components/RoomUser.component";
-import Questionnaire from "./components/Questionnaire.component";
+// import { useCollectionData } from "react-firebase-hooks/firestore";
+// import QuestionnaireResponseBox from "./components/QuestionnaireResponseBox.component";
+// import {GenerateLobbyCode} from "./js/LobbyCodeGenerator";
+// import RoomUser from "./components/RoomUser.component";
+// import Questionnaire from "./components/Questionnaire.component";
 import LobbyRoom from "./components/LobbyRoom.component";
 import {MDBContainer} from "mdb-react-ui-kit";
 // Needed for User Auth
@@ -15,7 +15,7 @@ import {MDBContainer} from "mdb-react-ui-kit";
 // Possible analytics from firebase
 // const analytics = firebase.analytics();
 
-const firestore = firebase.firestore();
+// const firestore = firebase.firestore();
 
 function AppTestRoom() {
     
@@ -44,13 +44,13 @@ function AppTestRoom() {
 //     // const dummy = useRef();
 //
 //     const lobbiesRef = firestore.collection('Lobbies')
-//    
+//
 //     const query = lobbiesRef.orderBy('createdAt').limit(25);
-//    
+//
 //     const [messages] = useCollectionData(query, {idField: 'id'});
-//    
+//
 //     const [formValue, setFormValue] = useState('');
-//    
+//
 //     const sendMessage = async(e) => {
 //         //keeps the page from refreshing
 //         e.preventDefault();
@@ -67,11 +67,11 @@ function AppTestRoom() {
 //         });
 //
 //         setFormValue('');
-//        
+//
 //         //used to auto scroll down
 //         // dummy.current.scrollIntoView({ behavior: 'smooth' });
 //     }
-//    
+//
 //     return(
 //         <>
 //             <div>
@@ -81,41 +81,13 @@ function AppTestRoom() {
 //                 {/*<span ref={dummy}></span>*/}
 //
 //             </div>
-//
-//             <div>
-//                 <div className="row align-items-center justify-content-center center-content-screen-top">
-//                     <div className="col align-self-center">
-//                         <h1 className="font-color-theme-1 text-style-subheader">ConneQions</h1>
-//                     </div>
-//                 </div>
-//             </div>
-//             <div>
-//                 <div className="row">
-//                     <div className="col">
-//                         <RoomUser username={"User 1"} csc={"position-absolute p-2 rounded-circle"}/>
-//                     </div>
-//                     <div className="col-2">{props.lobbyCode}</div>
-//                     <div className="col">
-//                         <RoomUser username={"User 2"} csc={"position-absolute p-2 rounded-circle"}/>
-//                     </div>
-//                 </div>
-//             </div>
-//             <Questionnaire />
-//             <div>
-//                 <QuestionnaireResponseBox />
-//             </div>
-//
-//             <form onSubmit={sendMessage}>
-//                 <input value={formValue} onChange={(e) => setFormValue(e.target.value)}/>
-//                 <button type="submit">Click Me</button>
-//             </form>
 //         </>
 //     )
-//    
+//
 // }
 //
 // function PracticeQuestionnaireResponseBox(props) {
-//    
+//
 //     const { text } = props.message;
 //
 //     // used to identify sent or received messages
@@ -128,8 +100,39 @@ function AppTestRoom() {
 //             <p>{text}</p>
 //         </div>
 //     )
-//    
+//
 // }
+
+export default AppTestRoom;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // function SignIn() {
 //
@@ -153,4 +156,4 @@ function AppTestRoom() {
 //     )
 // }
 
-export default AppTestRoom;
+
