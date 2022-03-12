@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c996c9e5-8175-4c97-a7df-8c0f715f2566" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/LobbyCodePasser.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/testFiles/TestCustomQuestionModal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/testFiles/TestLobbyRoom.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/testFiles/TestQuestionReplyModal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/testFiles/TestQuestionResponse.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/testFiles/TestQuestionnaire.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/testFiles/TestQuestionnaireResponseBox.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppTestRoom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppTestRoom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ConnectRoom.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ConnectRoom.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CreateRoom.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CreateRoom.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CustomQuestionModal.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CustomQuestionModal.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/JoinRoom.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/JoinRoom.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LobbyRoom.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LobbyRoom.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/QuestionReplyModal.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/QuestionReplyModal.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Questionnaire.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Questionnaire.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/QuestionnaireResponse.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/QuestionnaireResponse.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/QuestionnaireResponseBox.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/QuestionnaireResponseBox.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/firebase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/firebase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/LobbyCodeGenerator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/LobbyCodeGenerator.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="firebase-simple-messaging" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="25DfqfjGuLi4190QvwONWbDSn1Q" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react-firebase-chat" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Repos\connection-questions-app\src\components\testFiles" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Run Project" type="NodeJSConfigurationType" working-dir="$PROJECT_DIR$">
+      <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSStartBrowserRunConfigurationExtension">
+        <browser with-js-debugger="true" />
+      </EXTENSION>
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.Run Project" />
+      <item itemvalue="npm.npm start" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c996c9e5-8175-4c97-a7df-8c0f715f2566" name="Changes" comment="" />
+      <created>1645066772592</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645066772592</updated>
+      <workItem from="1645066775037" duration="32486000" />
+      <workItem from="1646948089537" duration="31348000" />
+    </task>
+    <task id="LOCAL-00001" summary="-made a few changes">
+      <created>1645072511019</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1645072511019</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="-made a few changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="-made a few changes" />
+  </component>
+</project>
