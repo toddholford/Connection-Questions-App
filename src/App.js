@@ -1,8 +1,7 @@
 import React from 'react';
 import {
-  BrowserRouter as Router,
   Route,
-  Routes
+  Switch
 } from "react-router-dom";
 import { MDBContainer } from 'mdb-react-ui-kit';
 
@@ -15,14 +14,12 @@ function App(){
 
     return (
       <MDBContainer>
-        <Router>
-            <Routes>
-                <Route path="/" element={<ConnectRoom />} />
-                <Route path="/create" element={<CreateRoom />} />
-                <Route path="/join" element={<JoinRoom />} />
-                <Route path="/lobby" element={<LobbyRoom />} />
-            </Routes>
-        </Router>
+        <Switch>
+            <Route exact path="/" component={ConnectRoom} />
+            <Route path="/create" component={CreateRoom} />
+            <Route path="/join" component={JoinRoom} />
+            <Route path="/lobby/:id" component={LobbyRoom} />
+        </Switch>
       </MDBContainer>
     )
 }

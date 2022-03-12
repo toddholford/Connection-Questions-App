@@ -1,13 +1,12 @@
-﻿import React from 'react';
-import RoomUser from "./RoomUser.component";
-import Questionnaire from "./Questionnaire.component";
-import {LobbyCodePasser} from "./CreateRoom.component";
+import React, {useState} from 'react';
+import firebase from "../../config/firebase";
 
+import RoomUser from "../RoomUser.component";
+import TestQuestionnaire from "./TestQuestionnaire";
 
-function LobbyRoom() {
+const firestore = firebase.firestore();
 
-    const fullLobbyCode = LobbyCodePasser("");
-
+function TestLobbyRoom() {
     return (
         <div>
             <div>
@@ -28,10 +27,9 @@ function LobbyRoom() {
                     </div>
                 </div>
             </div>
-            <Questionnaire fullLobbyCode={fullLobbyCode} />
+            <TestQuestionnaire />
         </div>
     );
 }
 
-export default LobbyRoom;
-
+export default TestLobbyRoom;

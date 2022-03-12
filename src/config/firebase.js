@@ -2,6 +2,8 @@
 import 'firebase/compat/firestore'
 import 'firebase/compat/database'
 import 'firebase/compat/auth'
+import 'firebase/firestore';
+
 
 const firebaseConfig = {
     apiKey: "AIzaSyBGCP4JD-mPI8RaBBioqVjh1TzuiKu3EKk",

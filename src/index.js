@@ -4,14 +4,17 @@ import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import './css/index.css';
 import './css/custom-bootstrap-overrides.css';
 import './css/customstyles.css';
-// import App from './App';
-import AppTestRoom from './AppTestRoom'
+import App from './App';
+// import AppTestRoom from './AppTestRoom'
 import reportWebVitals from './reportWebVitals';
+import {BrowserRouter} from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
-    {/*<App />*/}
-    <AppTestRoom />
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    {/*<AppTestRoom />*/}
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,8 +1,16 @@
 ﻿import React from 'react';
 import {Link} from "react-router-dom";
 import StyledButton from "./StyledButton.component";
+// import {GenerateLobbyCode} from "../js/LobbyCodeGenerator";
+
+// const lobbyId = GenerateLobbyCode;
+//
+// generatePath("/lobby/:id", {
+//     id: lobbyId
+// });
 
 function ConnectRoom() {
+
     return (
         <div>
             <div className="center-content-screen-middle">

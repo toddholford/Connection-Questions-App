@@ -1,28 +1,29 @@
-﻿import React, {useState} from 'react';
+import React, {useState} from 'react';
 import {
     MDBCard,
     MDBCardHeader,
     MDBCardBody
 } from 'mdb-react-ui-kit';
-import QuestionnairePrompt from "./QuestionnairePrompt.component";
-import StyledButton from "./StyledButton.component";
-import CustomQuestionModal from "./CustomQuestionModal.component";
-import QuestionnaireResponse from "./QuestionnaireResponse.component";
+import firebase from "../../config/firebase";
+import QuestionnairePrompt from "../QuestionnairePrompt.component";
+import StyledButton from "../StyledButton.component";
+import TestQuestionnaireResponse from "./TestQuestionResponse";
+import TestCustomQuestionModal from "./TestCustomQuestionModal";
 import {useCollectionData} from "react-firebase-hooks/firestore";
-
-import firebase from "../config/firebase";
 
 const firestore = firebase.firestore();
 
-function Questionnaire({fullLobbyCode}) {
+function TestQuestionnaire() {
 
-    const [centredModal, setCentredModal] = useState(false);
+    const [testCustomQuestionModal, setTestCustomQuestionModal] = useState(false);
 
-    const toggleShow = () => setCentredModal(!centredModal);
+    const toggleShow = () => setTestCustomQuestionModal(!testCustomQuestionModal);
 
-    const lobbyQuestionsRef = firestore.collection('Lobbies').doc(fullLobbyCode).collection('LobbyQuestions')
+    const lobbyQuestionsRef = firestore.collection('Lobbies').doc().collection('LobbyQuestions')
 
-    const query = lobbyQuestionsRef.orderBy('createdAt').limit(100);
+    const query = lobbyQuestionsRef.limit(100);
+
+    // const questions = query;
 
     //explore using a useEffect hook
     const [questions] = useCollectionData(query, {idField: 'id'});
@@ -51,16 +52,18 @@ function Questionnaire({fullLobbyCode}) {
                 </MDBCardBody>
             </MDBCard>
 
-            <div>
-                {questions && questions.map(qtn => <QuestionnaireResponseBox key={qtn.id} askedQuestion={qtn}/>)}
-            </div>
+            {questions && questions.map(qtn => <TestQuestionnaireResponseBox key={qtn.id} askedQuestion={qtn}/>)}
 
-            <CustomQuestionModal fullLobbyCode={fullLobbyCode} show={centredModal} setShow={setCentredModal} onClick={toggleShow} />
+            {/*<div>*/}
+            {/*    {questions && questions.map(qtn => <TestQuestionnaireResponseBox key={qtn.id} askedQuestion={qtn}/>)}*/}
+            {/*</div>*/}
+
+            <TestCustomQuestionModal show={testCustomQuestionModal} setShow={setTestCustomQuestionModal} onClick={toggleShow} />
         </>
     );
 }
 
-function QuestionnaireResponseBox(props) {
+function TestQuestionnaireResponseBox(props) {
 
     const {AskedQuestion} = props.askedQuestion;
 
@@ -70,11 +73,11 @@ function QuestionnaireResponseBox(props) {
                 {AskedQuestion}
             </MDBCardHeader>
             <MDBCardBody>
-                <QuestionnaireResponse className={"row justify-content-start"} csc={"user-1-color-dot-icon position-absolute p-2 rounded-circle"}/>
-                <QuestionnaireResponse className={"row justify-content-end"} csc={"user-2-color-dot-icon position-absolute p-2 rounded-circle"}/>
+                <TestQuestionnaireResponse className={"row justify-content-start"} csc={"user-1-color-dot-icon position-absolute p-2 rounded-circle"}/>
+                <TestQuestionnaireResponse className={"row justify-content-end"} csc={"user-2-color-dot-icon position-absolute p-2 rounded-circle"}/>
             </MDBCardBody>
         </MDBCard>
     );
 }
 
-export default Questionnaire;
+export default TestQuestionnaire;
